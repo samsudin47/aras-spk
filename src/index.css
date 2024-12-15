@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custome-sidebar {
+  background-color: #deb887;
+}
+
+.custome-card,
+.table-custom {
+  background-color: #fffbe7;
+}
+
+.no-background {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+#drawer-overlay-transparent {
+  background: transparent;
+}
